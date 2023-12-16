@@ -277,7 +277,7 @@ body.dark .switch::before {
 .home { /* Toggle to push/pull DashBoard home page */
   position: relative;
   height: 100vh;
-  left: 250px;
+  left: 150px;
   width: calc(100% - 250px);
   background: var(--body-color);
   transition: var(--tran-05);
@@ -291,6 +291,12 @@ body.dark .switch::before {
 }
 
 .sidebar.close ~ .home {
-  left: 88px;
-  width: calc(100% - 88px);
+  left: 0;
+  width: calc(100% - 5px);
 }
+
+/* Style for the home section */
+.home.move-right {
+  margin-left: 150px;
+}
+

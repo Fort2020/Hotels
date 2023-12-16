@@ -1,0 +1,27 @@
+body {
+  display: flex;
+}
+
+.home {
+  flex-grow: 1; /* Allow the HOME section to grow and take remaining space */
+  padding: 20px; /* Add padding for better appearance */
+}
+
+.hotel-image img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Add additional styling for .hotel-section, .hotel-image, .hotel-content if needed */
+.hotel-section {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hotel-content {
+  color: #fff;
+  max-width: 40px; /* Set a maximum width for content */
+  text-align: center;
+  margin: 0 auto; /* Center the content horizontally */
+}
